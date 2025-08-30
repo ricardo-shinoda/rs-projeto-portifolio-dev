@@ -29,3 +29,12 @@
   --text-sm: 400 14px/140% var(--font-family);
 
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
