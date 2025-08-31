@@ -21,13 +21,18 @@
   --font-family: "Maven Pro", sans-serif;
   --font-family-title: "Asap", sans-serif;
   --font-family-subtitle: "Inconsolata", monospace;
-  --title-lg: 800 56px/120% var(--font-family-title);
-  --title-md: 800 24px/120% var(--font-family-title);
-  --title-sm: 800 16px/120% var(--font-family-title);
+  --h1: 800 56px/120% var(--font-family-title);
+  --h2: 800 24px/120% var(--font-family-title);
+  --h3: 800 16px/120% var(--font-family-title);
   --subtitle: 600 20px/120% var(--font-family-subtitle);
   --text-md: 400 16px/140% var(--font-family);
   --text-sm: 400 14px/140% var(--font-family);
 
+}
+
+body {
+  color: var(--base-color-gray-300);
+  background-color: var(--base-color-gray-400);
 }
 
 a {
