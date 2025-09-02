@@ -2,3 +2,53 @@
   color: var(--principal-color-red);
   /* color: red; */
 }
+/* 
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1366px;
+  height: 917px;
+} */
+
+.feature {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 20px; /* Espaço entre os projetos */
+  justify-content: center;
+  max-width: 1200px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza a seção */
+}
+
+.feature > div {
+  background-color: var(--base-color-gray-400);
+  /* background: white; */
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0px
+}
+
+.feature img {
+  border-radius: 10px; /* Arredonda apenas o topo */
+  width: 95%;
+  /* height: 200px; */
+  object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.feature .content {
+  padding: 15px;
+  flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px; /* Adiciona espaçamento */
+  text-align: center;
+}
