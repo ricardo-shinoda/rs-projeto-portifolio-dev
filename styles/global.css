@@ -40,12 +40,6 @@ a {
   color: inherit;
 }
 
-img {
-  /* max-width: 100%;
-  margin: 10px; */
-  /* object-fit: cover; */
-}
-
 h1 {
   color: var(--base-color-gray-100);
 }

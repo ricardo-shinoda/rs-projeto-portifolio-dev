@@ -43,3 +43,8 @@
   background-repeat: no-repeat;
   background-color: transparent;
 }
+
+.projects {
+  grid-auto-flow: column;
+  grid-template-columns: 1r 3;
+}
