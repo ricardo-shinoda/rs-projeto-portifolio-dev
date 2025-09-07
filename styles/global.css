@@ -33,6 +33,7 @@
 body {
   color: var(--base-color-gray-300);
   background-color: var(--base-color-gray-500);
+  max-width: 1365px;
 }
 
 a {

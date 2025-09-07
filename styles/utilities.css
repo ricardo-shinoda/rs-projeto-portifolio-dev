@@ -49,8 +49,8 @@
 
 .container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: flex-end;
+  padding-top: 100px;
 }
 
 .detail {
@@ -79,6 +79,7 @@
 
 .main-container {
   margin: 72px 120px 144px 120px;
+  background-color: var(--base-color-gray-500);
 }
 
 .card {
@@ -103,4 +104,64 @@
   margin-top: 56px;
 }
 
+.card-service {
+  width: 280px;
+  height: 155px;
+  padding: 12px;
+  margin: 24px;
+  /* background-color: var(--base-color-gray-400); */
+  /* border-radius: 10px; */
+  border: solid 2px var(--base-color-gray-500);
 
+  img {
+    padding-bottom: 20px;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.service-container {
+    background-color: var(--base-color-gray-600);
+    width: 1366px;
+    height: 480px;
+    padding: 88px 120px 88px 120px;
+}
+
+.card-contact {
+    background-color: var(--base-color-gray-600);
+    width: 1366px;
+    height: 480px;
+    /* padding: 88px 120px 88px 120px; */
+
+    img {
+        height: 28px;
+        width: 28px;
+        margin-right: 15px;
+    }
+
+    img:nth-of-type(2) {
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+}
+}
+
+
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--base-color-gray-200);
+    /* padding: 100px; */
+    /* justify-content: space-between; */
+    width: 400px;
+    height: 68px;
+    padding: 20px;
+    margin: 24px;
+    background-color: var(--base-color-gray-400);
+    border-radius: 10px;
+}
+
+.contact-grid {
+    padding: 40px;
+}
